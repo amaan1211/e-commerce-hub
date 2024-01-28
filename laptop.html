@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<style>
+  #b1:hover{
+  
+    scale: 1.1;
+    border: 0px solid;
+    border-radius: 20%;
+  }  
+  
+  #b1{
+    background:linear-gradient(to left,rgb(189, 221, 239),rgb(87, 164, 247));
+    border: 0px solid;
+    border-radius: 3%;
+    font-weight: 70%;
+    box-shadow: 10px 10px 15px rgb(136, 219, 250);
+
+  }
+</style>
+
+<style>
+  @keyframes bnn{
+0%{
+background-color:red;
+}
+100%{
+background-color: blue;
+}
+}
+#bn{
+color: white;
+animation-name: bnn;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+</style>
+<style>
+  .lpq1{
+           height: 185%;
+           width: 100%;
+           position: absolute;
+           z-index: -1;
+           background-image: url(appbck.img);
+         }
+</style>
+
+</head>
+<body>
+
+<div class="lpq1"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4" style="position: fixed; left: 5%; z-index: 1; ">
+    <div class="spinner-grow" role="status">
+      <span class="visually-hidden"></span>
+    </div>
+    <a class="navbar-brand" href="#" style="font-size: 30px;"><u><b>e-Commerce Hub</b></u></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        &nbsp; <li class="nav-item">
+          <a class="nav-link" href="index.html" id="b1"><b>Home</b></a>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="android.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Android📱</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="android.html">Samsung</a>
+            <a class="dropdown-item" href="android.html">OnePlus</a>
+            <a class="dropdown-item" href="android.html">Realme</a>
+            <a class="dropdown-item" href="android.html">Redmi</a>
+            <a class="dropdown-item" href="android.html">Oppo</a>
+            <a class="dropdown-item" href="android.html">Vivo</a>
+
+            <div class="dropdown-divider"></div>
+        
+          </div>
+        </li>
+
+
+        &nbsp; <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apple.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Apple(ios)📲</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="apple.html">iphone 6s</a>
+            <a class="dropdown-item" href="apple.html">iphone 7plus</a>
+            <a class="dropdown-item" href="apple.html">iphone X</a>
+            <a class="dropdown-item" href="apple.html">iphone 11</a>
+            <a class="dropdown-item" href="apple.html">iphone 12</a>
+            <a class="dropdown-item" href="apple.html">iphone 14</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="laptop.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Laptops💻</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="laptop.html">Asus</a>
+            <a class="dropdown-item" href="laptop.html">Lenovo</a>
+            <a class="dropdown-item" href="laptop.html">Hp</a>
+            <a class="dropdown-item" href="laptop.html">Dell</a>
+            <a class="dropdown-item" href="laptop.html">Acer</a>
+            <a class="dropdown-item" href="laptop.html">MacBook</a>
+      
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+             <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="watch.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Smart Watches⌚</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="watch.html">Fire-boltt</a>
+            <a class="dropdown-item" href="watch.html">Noise</a>
+            <a class="dropdown-item" href="watch.html">Boult</a>
+            <a class="dropdown-item" href="watch.html">Boat</a>
+            <a class="dropdown-item" href="watch.html">Samsung</a>
+            <a class="dropdown-item" href="watch.html">i watch</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="earbuds.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Earbuds🎧</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="earbuds.html">Mivi</a>
+            <a class="dropdown-item" href="earbuds.html">Boat</a>
+            <a class="dropdown-item" href="earbuds.html">Realme</a>
+            <a class="dropdown-item" href="earbuds.html">PTrone</a>
+            <a class="dropdown-item" href="earbuds.html">Noise</a>
+            <a class="dropdown-item" href="earbuds.html">OnePlus</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="sond.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Speakers🔊</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="sond.html">Boat</a>
+            <a class="dropdown-item" href="sond.html">Zebronic</a>
+            <a class="dropdown-item" href="sond.html">Mivi</a>
+            <a class="dropdown-item" href="sond.html">Alexa</a>
+            <a class="dropdown-item" href="sond.html">JBL</a>
+            <a class="dropdown-item" href="sond.html">Sony</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
+      &nbsp;&nbsp;<form class="d-flex" role="search">
+    <a href="login.html" button class="btn btn-outline-success">Login</button></a> 
+      
+      </form>
+      
+   
+  </nav>
+  
+  </button>
+  <!-- navbar end -->
+    
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3" style="margin-left: 13%;">
+        <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%;background-image: url(indback.jpg);">
+            <img src="asusb.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;" >
+            <div class="card-body">
+              <h5 class="card-title"> <center>Asus</center></h5>
+              <p class="card-text">
+                🔹<b>Brand</b>	ASUS <br>
+                🔹<b>Screen Size</b>	15.6 Inches (39.6 cm) <br>
+               🔹 <b>Color</b>	Celestial Blue <br>
+              🔹  <b>Hard Disk Size</b>	1 TB <br>
+              🔹 <b> CPU Model</b>	Core i9 <br>
+               🔹 <b>Ram Memory Installed Size</b>	32 GB <br>
+               🔹 <b>Operating System</b>	Windows 10 Pro <br>
+               🔹 <b>Special Feature</b>	OLED 4K UHD Touch Display <br>
+                
+              <a href="https://www.flipkart.com/asus-tuf-gaming-f15-90whr-battery-intel-core-i5-11th-gen-11400h-16-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-3050-144-hz-75-w-fx506hc-hn362w-laptop/p/itme1099c5e0c014?pid=COMGPQEXKNS6N2ZM&lid=LSTCOMGPQEXKNS6N2ZM0B2U0W&marketplace=FLIPKART&q=asus+laptop&store=6bo%2Fb5g&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=17404538-313a-4cd5-b42a-44f96e0b2139.COMGPQEXKNS6N2ZM.SEARCH&ppt=sp&ppn=sp&ssid=rc6hbqvx280000001703745733588&qH=cda2435f700c2043" class="btn" id="bn">Buy Now latest Asus Laptop👆🏻</a>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%; background-image: url(indback.jpg);">
+                <img src="lnvo.jpg" class="card-img-top" alt="..." height="190px" style="border-radius: 15%;">
+                <div class="card-body">
+                  <h5 class="card-title"><center><b>Lenevo</b></center></h5>
+                  <p class="card-text">
+                  🔹 <b> Processor</b>  12th Generation Intel® Core™ i5-1235U Processor (E-cores up to 3.30 GHz P-cores up to 4.40 GHz) <br>                    
+                   🔹 <b>Graphic Card</b> Integrated Intel® Iris® Xe Graphics <br>
+                    
+                   🔹 <b>Memory</b>8 GB DDR4-3200MHz<br>
+                    
+                   🔹<b> Storage</b>512 GB SSD M.2 2242 PCIe Gen4 TLC <br>
+                    
+                  🔹 <b> Display</b> 39.62cms (15.6) FHD (1920 x 1080)
+                  <a href="https://www.flipkart.com/lenovo-loq-intel-core-i5-12th-gen-12450h-16-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-2050-15irh8-gaming-laptop/p/itma2ce6d6c8705b?pid=COMGRFVBJKVSZKSS&lid=LSTCOMGRFVBJKVSZKSSEILAF1&marketplace=FLIPKART&q=lenovo+laptop&store=6bo%2Fb5g&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&fm=search-autosuggest&iid=260fa9a8-b02a-4c2f-8a71-343eb944f565.COMGRFVBJKVSZKSS.SEARCH&ppt=sp&ppn=sp&ssid=dpncg419xs0000001703745767637&qH=86f3cf6b571c1490" class="btn" id="bn">Buy Now latest lenovo Laptop👆🏻</a>
+                </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-3">
+                <div class="card ml-3" style="width: 18rem; margin-top: 25%;border-radius: 15%; background-image: url(indback.jpg);">
+                    <img src="hp.jpg" class="card-img-top" alt="..." height="200px" style="border-radius: 15%;" >
+                    <div class="card-body">
+                      <h5 class="card-title">Hp</h5>
+                      <p class="card-text">
+                     🔹 <b>  Brand	</b>HP <br>
+                       🔹  <b> Model Name</b>	15-fa0666TX <br>
+                       🔹 <b>  Screen Size	</b>39.6 Centimetres <br>
+                         🔹 <b>Colour</b>	Performance Blue <br>
+                        🔹  <b>Hard Disk Size</b>	512 GB <br>
+                       🔹 <b>CPU Model	</b>Core i5 <br>
+                        🔹  <b>RAM</b> Memory Installed Size	16 GB <br>
+                        🔹  <b>Operating System	</b>Windows 11 Home <br>
+                         
+                          
+                      <a href="https://www.flipkart.com/hp-pavilion-aero-2023-amd-ryzen-7-octa-core-7735u-16-gb-1-tb-ssd-windows-11-home-13-be2047au-thin-light-laptop/p/itm46faab36d58f8?pid=COMGNGEBCTVBFXGM&lid=LSTCOMGNGEBCTVBFXGMNL5VQR&marketplace=FLIPKART&q=hp+laptop&store=6bo%2Fb5g&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=5b43e666-d734-4660-a167-ec67dc1c6cf6.COMGNGEBCTVBFXGM.SEARCH&ppt=sp&ppn=sp&ssid=5p7g4z99hs0000001703745802565&qH=9d1edd3d0f6d1b3c" class="btn" id="bn">Buy Now latest Laptop👆🏻</a>
+                    </div>
+                    </div>
+                  </div>
+                
+  
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3"  style="margin-left: 13%;">
+                        <div class="card ml-3" style="width: 18rem; margin-top: 10%; border-radius: 15%; background-image: url(indback.jpg);">
+                            <img src="dell.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                            <div class="card-body">
+                              <h5 class="card-title"><b>Dell</b></h5>
+                              <p class="card-text">
+                              🔹 <b> Brand</b>	Dell <br>
+                            🔹<b>      Model Name</b>	G15-5520 <br>
+                               🔹 <b>  Screen Size</b>	15.6 Inches <br>                                  <b>Colour</b>	Dark Shadow Grey
+                              🔹 <b>   Hard Disk Size	</b>512 GB <br>
+                                🔹  <b>CPU Model</b>	Core i5 <br>
+                               🔹  <b> RAM </b>Memory Installed Size	16 GB <br>
+                          🔹 <b>  Operating System</b>	Windows 11 Home <br>
+                                  
+                               
+                              </p>
+                              <a href="https://www.flipkart.com/dell-intel-core-i5-13th-gen-1335u-16-gb-1-tb-ssd-windows-11-home-inspiron-3530-thin-light-laptop/p/itmde8407c6c5b9d?pid=COMGTQXEPE3ZKHN8&lid=LSTCOMGTQXEPE3ZKHN8Y1FSOK&marketplace=FLIPKART&q=dell+laptop&store=6bo%2Fb5g&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=19afa4e5-7960-441d-8d4f-fbfc6f02d239.COMGTQXEPE3ZKHN8.SEARCH&ppt=sp&ppn=sp&ssid=i98rkdn4rk0000001703745831950&qH=1867cf4d208e7007" class="btn" id="bn">Buy Now Latest Laptop👆🏻</a>
+                            </div>
+                            </div>
+                          </div>
+  
+  
+                      
+                            <div class="col-lg-3">
+                            <div class="card ml-3" style="width: 18rem; margin-top: 10%; border-radius: 15%; background-image: url(indback.jpg);">
+                                <img src="acer.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Acer</h5>
+                                  <p class="card-text">
+                                     🔹<b>Brand</b>	Acer <br>
+                                    🔹  <b>Model Name</b>	ANV15-51 <br> 
+                                    🔹 <b> Screen Size</b>	15.6 Inches <br> 
+                                    🔹 <b> Colour</b>	Black <br> 
+                                    🔹  <b>CPU Model	Core</b> i5 <br>
+                                    🔹 <b> RAM </b>Memory Installed Size	16 GB <br>
+                                    
+                                    
+                                  </p>
+                                  <a href="https://www.flipkart.com/acer-nitro-5-intel-core-i7-12th-gen-12650h-16-gb-512-gb-ssd-windows-11-home-6-graphics-nvidia-geforce-rtx-4050-144-hz-an515-58-74gg-gaming-laptop/p/itm296221f6ec4c6?pid=COMGPWFVWYZHM4U2&lid=LSTCOMGPWFVWYZHM4U22NAU1J&marketplace=FLIPKART&q=acer+laptop&store=6bo%2Fb5g&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=f5dab4e2-96ed-4652-9ace-460ea0ffa144.COMGPWFVWYZHM4U2.SEARCH&ppt=sp&ppn=sp&ssid=w1iw8v7bb40000001703745868375&qH=2a80de980b66e179" class="btn" id="bn">Buy Now Latest Laptop👆🏻</a>
+                                </div>
+                                </div>
+                              </div>
+  
+                            
+                                <div class="col-lg-3">
+                                <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%; background-image: url(indback.jpg);">
+                                    <img src="macbook.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">MacBook</h5>
+                                      <p class="card-text">
+                                          🔹18GB unified memory <br>
+                                          🔹512GB SSD storage <br>
+                                         🔹 41.05 cm (16.2-inch) Liquid Retina XDR display² <br>
+                                         🔹 140W USB-C Power Adapter <br>
+                                         🔹 Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine <br>
+                                     
+                                      <a href="https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itm3c872f9e67bc6?pid=COMFXEKMGNHZYFH9&lid=LSTCOMFXEKMGNHZYFH9P56X45&marketplace=FLIPKART&q=macbook&store=6bo%2Fb5g&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&fm=Search&iid=c4005d41-ffff-45ad-bf8e-0231eef113bf.COMFXEKMGNHZYFH9.SEARCH&ppt=pp&ppn=pp&ssid=lgowmg9e8g0000001703750399662&qH=864faee128623e2f" class="btn" id="bn">Buy NOw Latest Laptop👆🏻</a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-light bg-dark mt-5 ">
+    <!-- Section: Social media -->  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>e-Commerce Hub
+              </h6>
+              <p>
+                E-commerce is a powerfull means to connect the unconnected to global trades
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="watch.html" class="text-reset">Watches</a>
+              </p>
+              <p>
+                <a href="sond.html" class="text-reset">Speakers</a>
+              </p>
+              <p>
+                <a href="laptop.html" class="text-reset">Laptop</a>
+              </p>
+              <p>
+                <a href="android.html" class="text-reset">andriod</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="http://www.instagram.com" class="text-reset">Instagram</a>
+              </p>
+              <p>
+                <a href="http://www.whatsspp.com" class="text-reset">whats app</a>
+              </p>
+              <p>
+                <a href="http://www.snapchat.com" class="text-reset">Snapchat</a>
+              </p>
+              <p>
+                <a href="http://www.google.com" class="text-reset">Google</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+              <p><i class="fas fa-home me-3"></i>Mango, Jamshedpur, Jharkhand</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                hub@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +91 7488047535</p>
+              <p><i class="fas fa-print me-3"></i> +91 6206338481</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+     
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="index.html">Commerce.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+  </body>
+  </html>

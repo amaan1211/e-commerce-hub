@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<style>
+  #b1:hover{
+  
+    scale: 1.1;
+    border: 0px solid;
+    border-radius: 20%;
+  }  
+  
+  #b1{
+    background:linear-gradient(to left,rgb(189, 221, 239),rgb(87, 164, 247));
+    border: 0px solid;
+    border-radius: 3%;
+    font-weight: 70%;
+    box-shadow: 10px 10px 15px rgb(136, 219, 250);
+
+  }
+</style>
+
+<style>
+  @keyframes bnn{
+0%{
+background-color:red;
+}
+100%{
+background-color: blue;
+}
+}
+#bn{
+color: white;
+animation-name: bnn;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+</style>
+
+<style>
+  .loq1{
+           height: 185%;
+           width: 100%;
+           position: absolute;
+           z-index: -1;
+           background-image: url(appbck.img);
+         }
+</style>
+
+</head>
+<body>
+
+<div class="loq1"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4" style="position: fixed; left: 5%; z-index: 1; ">
+    <div class="spinner-grow" role="status">
+      <span class="visually-hidden"></span>
+    </div>
+    <a class="navbar-brand" href="#" style="font-size: 30px;"><u><b>e-Commerce Hub</b></u></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        &nbsp; <li class="nav-item">
+          <a class="nav-link" href="index.html" id="b1"><b>Home</b></a>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="android.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Android📱</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="android.html">Samsung</a>
+            <a class="dropdown-item" href="android.html">OnePlus</a>
+            <a class="dropdown-item" href="android.html">Realme</a>
+            <a class="dropdown-item" href="android.html">Redmi</a>
+            <a class="dropdown-item" href="android.html">Oppo</a>
+            <a class="dropdown-item" href="android.html">Vivo</a>
+
+            <div class="dropdown-divider"></div>
+        
+          </div>
+        </li>
+
+
+        &nbsp; <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apple.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Apple(ios)📲</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="apple.html">iphone 6s</a>
+            <a class="dropdown-item" href="apple.html">iphone 7plus</a>
+            <a class="dropdown-item" href="apple.html">iphone X</a>
+            <a class="dropdown-item" href="apple.html">iphone 11</a>
+            <a class="dropdown-item" href="apple.html">iphone 12</a>
+            <a class="dropdown-item" href="apple.html">iphone 14</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="laptop.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Laptops💻</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="laptop.html">Asus</a>
+            <a class="dropdown-item" href="laptop.html">Lenovo</a>
+            <a class="dropdown-item" href="laptop.html">Hp</a>
+            <a class="dropdown-item" href="laptop.html">Dell</a>
+            <a class="dropdown-item" href="laptop.html">Acer</a>
+            <a class="dropdown-item" href="laptop.html">MacBook</a>
+      
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+             <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="watch.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Smart Watches⌚</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="watch.html">Fire-boltt</a>
+            <a class="dropdown-item" href="watch.html">Noise</a>
+            <a class="dropdown-item" href="watch.html">Boult</a>
+            <a class="dropdown-item" href="watch.html">Boat</a>
+            <a class="dropdown-item" href="watch.html">Samsung</a>
+            <a class="dropdown-item" href="watch.html">i watch</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="earbuds.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Earbuds🎧</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="earbuds.html">Mivi</a>
+            <a class="dropdown-item" href="earbuds.html">Boat</a>
+            <a class="dropdown-item" href="earbuds.html">Realme</a>
+            <a class="dropdown-item" href="earbuds.html">PTrone</a>
+            <a class="dropdown-item" href="earbuds.html">Noise</a>
+            <a class="dropdown-item" href="earbuds.html">OnePlus</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="sond.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Speakers🔊</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="sond.html">Boat</a>
+            <a class="dropdown-item" href="sond.html">Zebronic</a>
+            <a class="dropdown-item" href="sond.html">Mivi</a>
+            <a class="dropdown-item" href="sond.html">Alexa</a>
+            <a class="dropdown-item" href="sond.html">JBL</a>
+            <a class="dropdown-item" href="sond.html">Sony</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
+      &nbsp;&nbsp;<form class="d-flex" role="search">
+    <a href="login.html" button class="btn btn-outline-success">Login</button></a> 
+      
+      </form>
+      
+   
+  </nav>
+  
+  </button>
+  <!-- navbar end -->
+    
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3" style="margin-left: 13%;">
+        <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%;background-image: url(indback.jpg);">
+            <img src="mivi.jpg" class="card-img-top" alt="..." height="50%"  style="border-radius: 15%;">
+            <div class="card-body">
+              <h5 class="card-title"> <center>Mivi</center></h5>
+              <p class="card-text">
+              The Mivi DuoPods A25 offers 10mm large audio drivers, touch control, <br>up to 40 hours of battery life, a nice and secure fit for long usage. </p>
+            
+               
+                
+              <a href="https://www.flipkart.com/mivi-duopods-k7-metallic-finish-ai-enc-50h-playtime-low-latency-gaming-rich-bass-5-3-bluetooth-headset/p/itm1bd030b0478dc?pid=ACCGMDMDFB8J3VMZ&lid=LSTACCGMDMDFB8J3VMZGZBGU4&marketplace=FLIPKART&q=mivi+earbuds&store=0pm%2Ffcn%2F821%2Fa7x%2F2si&srno=s_1_27&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_L9WWgBjPmSyTPCUwKtNu-SqqtC-2ca32dMkGzwMb0pZRbHAfkJ__S-jIaearC4DU6W0wlwqUMoqMHUuohiZD5w%3D%3D&ppt=sp&ppn=sp&ssid=hnbzrcv5ow0000001703745909315&qH=999e9a7e31101f72" class="btn" id="bn">Buy Now latest Earbuds👆🏻</a>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%; background-image: url(indback.jpg);">
+                <img src="boat.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                <div class="card-body">
+                  <h5 class="card-title"><center><b>Boat</b></center></h5>
+                  <p class="card-text">
+                    Earphone battery capacity. 3.7V, 40mAh x 2 buds ; <br> Talk time/music time. 3 Hours per bud ; Charging Time. 2 Hours ; Standby Time. 100 Hours ; Bluetooth Range. 10m. <br>
+                  <a href="https://www.flipkart.com/boat-nirvana-ion-anc-w-32db-anc-120hrs-playback-crystal-bionic-mode-hifi-5-bluetooth-headset/p/itm69d762fa4498d?pid=ACCGT3NU5ACCBMRQ&lid=LSTACCGT3NU5ACCBMRQDPS9F9&marketplace=FLIPKART&q=boat+earbuds&store=0pm%2Ffcn%2F821%2Fa7x%2F2si&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&fm=search-autosuggest&iid=en_Q4VVvqMnLq_4k6J76R8-SlaaQqdDWBgy3x62bzCC9zv15mGL_TsbLfmRaz6vw9boM0wXuoVeRqlHZxNy9zKFfw%3D%3D&ppt=sp&ppn=sp&ssid=6gr8k97py80000001703745940622&qH=f0997bcdf53106d2" class="btn" id="bn">Buy Now latest Earbuds👆🏻</a>
+                </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-3">
+                <div class="card ml-3" style="width: 18rem; margin-top: 25%;border-radius: 15%; background-image: url(indback.jpg);">
+                    <img src="realme1.jpg" class="card-img-top" alt="..." height="50%px" style="border-radius: 15%;" >
+                    <div class="card-body">
+                      <h5 class="card-title"><center>Realme</center></h5>
+                      <p class="card-text">
+                     
+                      realme Buds Tech Specs ; Hardware. Color: Black. Type: In-ear ;Sound. Impedance: 32Ω. Rated Power: 3mW ; What's in the Box. 1 x realme Buds. 6 x Differently-sized
+                      
+                         </p>
+                          
+                      <a href="https://www.flipkart.com/realme-buds-air-5-50db-anc-12-4mm-dynamic-bass-driver-upto-38-hours-playback-bluetooth-headset/p/itm8102ba49bb015?pid=ACCGSAP5U93BWXUY&lid=LSTACCGSAP5U93BWXUY2DYPLJ&marketplace=FLIPKART&q=realme+earbuds&store=0pm%2Ffcn&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=6263ba54-5499-4ba5-a37c-35d2e0ede22e.ACCGSAP5U93BWXUY.SEARCH&ppt=sp&ppn=sp&ssid=umxdb5145c0000001703745978683&qH=cd1073e156bd9b70" class="btn" id="bn">Buy Now latest Earbuds👆🏻</a>
+                    </div>
+                    </div>
+                  </div>
+                
+  
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3"  style="margin-left: 13%;">
+                        <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%;background-image: url(indback.jpg);">
+                            <img src="ptone.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title"><b><center>pTrone</center></b></h5>
+                              <p class="card-text">
+                              13mm Driver for Immersive Sound, 32Hrs Playtime, Clear Calls, <br>Bluetooth V5. 1, Touch Control, TypeC Fast Charging, Voice Assist & IPX4 Water Resistant (Light Lilac)                         
+                              </p>
+                              <a href="https://www.flipkart.com/ptron-basspods-p481-60hrs-playtime-deep-bass-enc-stereo-calls-bluetooth-headset/p/itm20995ab6d6d2c?pid=ACCGHNRF4WPVH9JP&lid=LSTACCGHNRF4WPVH9JPRL6HZV&marketplace=FLIPKART&q=ptron+earbuds&store=0pm%2Ffcn%2F821%2Fa7x%2F2si&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&fm=search-autosuggest&iid=e86f9e2d-e06c-4091-a07e-1b3319cd338e.ACCGHNRF4WPVH9JP.SEARCH&ppt=sp&ppn=sp&ssid=79kdt8jdf40000001703746023469&qH=518b4d1a8c007709" class="btn" id="bn">Buy Now Latest Earbuds👆🏻</a>
+                            </div>
+                            </div>
+                          </div>
+  
+  
+                      
+                            <div class="col-lg-3">
+                            <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%; background-image: url(indback.jpg);">
+                                <img src="noise.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                                <div class="card-body">
+                                  <h5 class="card-title"><center>Noise</center></h5>
+                                  <p class="card-text">
+                                    Buy wireless earbuds from Noise - India's No.1 <br> Truly Wireless Brand. Shop for best noise cancelling earbuds that comes with fast charging, quick pairing 
+                                  </p>
+                                  <a href="https://www.flipkart.com/noise-buds-vs102-plus-70-hrs-playtime-environmental-cancellation-quad-mic-bluetooth-headset/p/itmb657fa670c4b9?pid=ACCGNX3S5P7TG76G&lid=LSTACCGNX3S5P7TG76GY0LIDR&marketplace=FLIPKART&q=noise+ear&store=0pm%2Ffcn&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_j3_semzuYUJ2BHWV-ZET681x19WKKqFvec-8SLQ3bW5C8YCt-Cged3og7itSqt-Kc7Ox7XWbh43XL55RpHGbyQ%3D%3D&ppt=sp&ppn=sp&ssid=q2us0syqog0000001703746046094&qH=5f7c37e14f7ed1ac" class="btn" id="bn">Buy Now Latest Earbuds👆🏻</a>
+                                </div>
+                                </div>
+                              </div>
+  
+                            
+                                <div class="col-lg-3">
+                                <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%; background-image: url(indback.jpg);">
+                                    <img src="onpls.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><center>OnePlus</center></h5>
+                                      <p class="card-text">
+                                        30 hours of powerful sound ; Fully charged, the earphones <br> can listen to music for up to 7 Hours. HOURS. 7.0 ; The case is a power bank, allowing up to 30 hours of
+                                     
+                                      <a href="https://www.flipkart.com/oneplus-nord-buds-2r-true-wireless-ear-earbuds-dual-mic-ai-crystal-clear-call-bluetooth-headset/p/itm567528a0c20e3?pid=ACCGQRC2ANF7E2RY&lid=LSTACCGQRC2ANF7E2RYXX5TCR&marketplace=FLIPKART&q=oneplus+earbuds&store=0pm%2Ffcn%2F821%2Fa7x%2F2si&spotlightTagId=BestsellerId_0pm%2Ffcn%2F821%2Fa7x%2F2si&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=6b9bf30f-7ca3-45f6-a7f2-57a01c86d5ae.ACCGQRC2ANF7E2RY.SEARCH&ppt=sp&ppn=sp&ssid=plrycgnpcw0000001703746084824&qH=1236109085756208" class="btn" id="bn">Buy Now latest Earbuds👆🏻</a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Footer -->
+                    <footer class="text-center text-lg-start bg-body-tertiary text-light bg-dark mt-5 ">
+                      <!-- Section: Social media -->  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                        
+                      
+                          <!-- Right -->
+                          <div>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-google"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                              <i class="fab fa-github"></i>
+                            </a>
+                          </div>
+                          <!-- Right -->
+                        </section>
+                        <!-- Section: Social media -->
+                      
+                        <!-- Section: Links  -->
+                        <section class="">
+                          <div class="container text-center text-md-start mt-5">
+                            <!-- Grid row -->
+                            <div class="row mt-3">
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                  <i class="fas fa-gem me-3"></i>e-Commerce Hub
+                                </h6>
+                                <p>
+                                  E-commerce is a powerfull means to connect the unconnected to global trades
+                                </p>
+                              </div>
+                              <!-- Grid column -->
+                      
+                              <!-- Grid column -->
+                              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                  Products
+                                </h6>
+                                <p>
+                                  <a href="watch.html" class="text-reset">Watches</a>
+                                </p>
+                                <p>
+                                  <a href="sond.html" class="text-reset">Speakers</a>
+                                </p>
+                                <p>
+                                  <a href="laptop.html" class="text-reset">Laptop</a>
+                                </p>
+                                <p>
+                                  <a href="android.html" class="text-reset">andriod</a>
+                                </p>
+                              </div>
+                              <!-- Grid column -->
+                      
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                  Useful links
+                                </h6>
+                                <p>
+                                  <a href="http://www.instagram.com" class="text-reset">Instagram</a>
+                                </p>
+                                <p>
+                                  <a href="http://www.whatsspp.com" class="text-reset">whats app</a>
+                                </p>
+                                <p>
+                                  <a href="http://www.snapchat.com" class="text-reset">Snapchat</a>
+                                </p>
+                                <p>
+                                  <a href="http://www.google.com" class="text-reset">Google</a>
+                                </p>
+                              </div>
+                              <!-- Grid column -->
+                      
+                              <!-- Grid column -->
+                              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+                                <p><i class="fas fa-home me-3"></i>Mango, Jamshedpur, Jharkhand</p>
+                                <p>
+                                  <i class="fas fa-envelope me-3"></i>
+                                  hub@gmail.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> +91 7488047535</p>
+                                <p><i class="fas fa-print me-3"></i> +91 6206338481</p>
+                              </div>
+                              <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                          </div>
+                        </section>
+                       
+                        <!-- Copyright -->
+                        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                          © 2021 Copyright:
+                          <a class="text-reset fw-bold" href="index.html">Commerce.com</a>
+                        </div>
+                        <!-- Copyright -->
+                      </footer>
+                      <!-- Footer -->
+  
+
+
+
+
+  </body>
+  </html>

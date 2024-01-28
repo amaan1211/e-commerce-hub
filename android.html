@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<style>
+  #b1:hover{
+  
+    scale: 1.1;
+    border: 0px solid;
+    border-radius: 20%;
+  }  
+  
+  #b1{
+    background:linear-gradient(to left,rgb(189, 221, 239),rgb(87, 164, 247));
+    border: 0px solid;
+    border-radius: 3%;
+    font-weight: 70%;
+    box-shadow: 10px 10px 15px rgb(136, 219, 250);
+
+  }
+</style>
+
+<style>
+  @keyframes bnn{
+0%{
+background-color:red;
+}
+100%{
+background-color: blue;
+}
+}
+#bn{
+color: white;
+animation-name: bnn;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+</style>
+
+<style>
+  .lp11{
+           height: 185%;
+           width: 100%;
+           position: absolute;
+           z-index: -1;
+           background-image: url(appbck.img);
+         }
+</style>
+
+</head>
+<body>
+
+<div class="lp11"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4" style="position: fixed; left: 5%; z-index: 1; ">
+    <div class="spinner-grow" role="status">
+      <span class="visually-hidden"></span>
+    </div>
+    <a class="navbar-brand" href="#" style="font-size: 30px;"><u><b>e-Commerce Hub</b></u></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        &nbsp; <li class="nav-item">
+          <a class="nav-link" href="index.html" id="b1"><b>Home</b></a>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="android.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Android📱</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="android.html">Samsung</a>
+            <a class="dropdown-item" href="android.html">OnePlus</a>
+            <a class="dropdown-item" href="android.html">Realme</a>
+            <a class="dropdown-item" href="android.html">Redmi</a>
+            <a class="dropdown-item" href="android.html">Oppo</a>
+            <a class="dropdown-item" href="android.html">Vivo</a>
+
+            <div class="dropdown-divider"></div>
+        
+          </div>
+        </li>
+
+
+        &nbsp; <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apple.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Apple(ios)📲</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="apple.html">iphone 6s</a>
+            <a class="dropdown-item" href="apple.html">iphone 7plus</a>
+            <a class="dropdown-item" href="apple.html">iphone X</a>
+            <a class="dropdown-item" href="apple.html">iphone 11</a>
+            <a class="dropdown-item" href="apple.html">iphone 12</a>
+            <a class="dropdown-item" href="apple.html">iphone 14</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="laptop.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Laptops💻</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="laptop.html">Asus</a>
+            <a class="dropdown-item" href="laptop.html">Lenovo</a>
+            <a class="dropdown-item" href="laptop.html">Hp</a>
+            <a class="dropdown-item" href="laptop.html">Dell</a>
+            <a class="dropdown-item" href="laptop.html">Acer</a>
+            <a class="dropdown-item" href="laptop.html">MacBook</a>
+      
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+             <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="watch.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Smart Watches⌚</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="watch.html">Fire-boltt</a>
+            <a class="dropdown-item" href="watch.html">Noise</a>
+            <a class="dropdown-item" href="watch.html">Boult</a>
+            <a class="dropdown-item" href="watch.html">Boat</a>
+            <a class="dropdown-item" href="watch.html">Samsung</a>
+            <a class="dropdown-item" href="watch.html">i watch</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="earbuds.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+            <b>Earbuds🎧</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="earbuds.html">Mivi</a>
+            <a class="dropdown-item" href="earbuds.html">Boat</a>
+            <a class="dropdown-item" href="earbuds.html">Realme</a>
+            <a class="dropdown-item" href="earbuds.html">PTrone</a>
+            <a class="dropdown-item" href="earbuds.html">Noise</a>
+            <a class="dropdown-item" href="earbuds.html">OnePlus</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+
+
+        &nbsp;<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="sond.html" role="button" data-toggle="dropdown" aria-expanded="false" id="b1">
+           <b> Speakers🔊</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="sond.html">Boat</a>
+            <a class="dropdown-item" href="sond.html">Zebronic</a>
+            <a class="dropdown-item" href="sond.html">Mivi</a>
+            <a class="dropdown-item" href="sond.html">Alexa</a>
+            <a class="dropdown-item" href="sond.html">JBL</a>
+            <a class="dropdown-item" href="sond.html">Sony</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
+      &nbsp;&nbsp;<form class="d-flex" role="search">
+    <a href="login.html" button class="btn btn-outline-success">Login</button></a> 
+      
+      </form>
+      
+   
+  </nav>
+  
+  </button>
+  <!-- navbar end -->
+    
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3" style="margin-left: 13%;  border-radius: 20%;" id="k1">
+        <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%; background-image: url(indback.jpg);">
+            <img src="samsung.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+            <div class="card-body">
+              <h5 class="card-title"> <center>Samsung</center></h5>
+              <p class="card-text">
+            🔹<b>Brand</b>	<b>Samsung</b> <br>
+            🔹<b>Model Name </b> Galaxy S23 Ultra <br>
+            🔹<b>Network Service Provider</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unlocked for All Carriers <br>
+            🔹<b>Operating System</b> Android &nbsp;&nbsp;&nbsp;&nbsp;13.0 <br>
+            🔹<b>Cellular Technology </b> 5G <br> </p>
+              <a href="https://www.flipkart.com/samsung-galaxy-s22-5g-phantom-white-128-gb/p/itm93d0fc4af3e10?pid=MOBGGG2YBHNYTAFZ&lid=LSTMOBGGG2YBHNYTAFZAOFKPA&marketplace=FLIPKART&q=samsung+smartphone&store=tyy%2F4io&srno=s_1_2&otracker=AS_Query_OrganicAutoSuggest_3_10_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_10_na_na_na&fm=search-autosuggest&iid=4f3e8ef4-7165-41fb-8e80-6df2276aa2ae.MOBGGG2YBHNYTAFZ.SEARCH&ppt=pp&ppn=pp&ssid=1mh1rx6ovk0000001703745186544&qH=8b73231664e2f044" class="btn" id="bn">Buy Now latest Samsung Phone👆🏻</a>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem; margin-top: 25%; border-radius: 15%;  background-image: url(indback.jpg);">
+                <img src="oneplus.jpg" class="card-img-top" alt="..." height="215px" style="border-radius: 15%;">
+                <div class="card-body">
+                  <h5 class="card-title"><center><b>OnePlus</b></center></h5>
+                  <p class="card-text">
+                🔹<b> Brand</b>	<b>OnePlus </b><br>
+                🔹 <b> Model Name</b>	OnePlus 11R <br>
+                🔹<b>Network Service Provider</b>	&nbsp;&nbsp;&nbsp;&nbsp;Unlocked for All Carriers <br>
+                🔹 <b> Operating System</b>	OxygenOS <br>
+                🔹 <b> Cellular Technology</b>	5G</p> <br>
+                  <a href="https://www.flipkart.com/oneplus-nord-ce-3-lite-5g-pastel-lime-256-gb/p/itm2cd5a4e659035?pid=MOBGZJ3ZFQ8AKKRS&lid=LSTMOBGZJ3ZFQ8AKKRSXHP4UY&marketplace=FLIPKART&q=oneplus+mobile+5g&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&fm=search-autosuggest&iid=ece5fda9-1f23-4897-bc9a-5ad407643548.MOBGZJ3ZFQ8AKKRS.SEARCH&ppt=pp&ppn=pp&ssid=fcfx7ce4wg0000001703745211008&qH=1462a4613d639586" class="btn" id="bn">Buy Now latest OnePlus Phone👆🏻</a>
+                </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-3">
+                <div class="card ml-3" style="width: 18rem; margin-top: 25%;border-radius: 15%;  background-image: url(indback.jpg);">
+                    <img src="realme.jpg" class="card-img-top" alt="..." height="218px" style="border-radius: 15%;">
+                    <div class="card-body">
+                      <h5 class="card-title"><center><b>Realme</b></center></h5>
+                      <p class="card-text">
+                       🔹<b> Brand</b>	realme <br>
+                       🔹<b>Model Name	</b> Realme GT 2 Pro <br>
+                       🔹 <b>Network Service Provider</b>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unlocked for All Carriers <br>
+                       🔹 <b>Operating System</b>	Android 12.0 <br>
+                      🔹 <b>Cellular Technology	</b> 5G</p> <br>
+                      <a href="https://www.flipkart.com/realme-11-pro-5g-oasis-green-256-gb/p/itm5647cce338e55?pid=MOBGPU8H9KVVVHMS&lid=LSTMOBGPU8H9KVVVHMSM5WQKX&marketplace=FLIPKART&q=realme+smartphone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&fm=search-autosuggest&iid=3b45311d-b147-4c9a-88ed-17e009a9366b.MOBGPU8H9KVVVHMS.SEARCH&ppt=pp&ppn=pp&ssid=sklrxanb8w0000001703745234990&qH=278d87d64e5c99c8" class="btn" id="bn">Buy Now latest OnePlus Phone👆🏻</a>
+                    </div>
+                    </div>
+                  </div>
+                
+  
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3"  style="margin-left: 13%; border-radius: 20%;">
+                        <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%; background-image: url(indback.jpg);">
+                            <img src="redmi.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 20%;">
+                            <div class="card-body">
+                              <h5 class="card-title"><b><center>Redmi</center></b></h5>
+                              <p class="card-text">
+                                
+                                🔹<b>Brand</b>	Redmi <br>
+                                🔹<b>Model Name</b>	Redmi 12 <br>
+                                 🔹<b>Network Service Provider</b> Unlocked for All Carriers <br>
+                                🔹<b>Operating System</b>	MIUI 14, Android 13.0 <br>
+                                🔹<b>Cellular Technology</b>	5G <br>
+                              </p>
+                              <a href="https://www.flipkart.com/redmi-note-12-pro-5g-iceberg-blue-256-gb/p/itmc41b2b02af0da?pid=MOBGH2UVGCGZZT2V&lid=LSTMOBGH2UVGCGZZT2VXUSVE8&marketplace=FLIPKART&q=redmi+smartphone&store=tyy%2F4io&srno=s_1_14&otracker=search&otracker1=search&fm=search-autosuggest&iid=968a0516-2075-419d-8e74-8b265180cf6d.MOBGH2UVGCGZZT2V.SEARCH&ppt=pp&ppn=pp&ssid=tn4iahjy740000001703745261503&qH=16e35e1c76bc3b93" class="btn" id="bn">Buy Now Latest Redmi Phone👆🏻</a>
+                            </div>
+                            </div>
+                          </div>
+  
+  
+                      
+                            <div class="col-lg-3">
+                            <div class="card ml-3" style="width: 18rem; margin-top: 10%;border-radius: 15%; background-image: url(indback.jpg);">
+                                <img src="oppo.jpg" class="card-img-top" alt="..." height="50%" style="border-radius: 15%;">
+                                <div class="card-body">
+                                  <h5 class="card-title"><center><b>Oppo</b></center></h5>
+                                  <p class="card-text">
+                                    
+                                    🔹<b> Model Name</b>	F23 5G <br>
+                                    🔹<b>Network Service Provider</b>	Unlocked for All Carriers <br>
+                                    🔹<b>Operating System</b>	Android 13.0 <br>
+                                    🔹<b> Cellular Technology</b>	5G <br>
+                                    🔹<b>Brand</b>	Oppo <br>
+                                  </p>
+                                  <a href="https://www.flipkart.com/oppo-reno10-5g-ice-blue-256-gb/p/itm8f29359478c6e?pid=MOBGQP3UUYGFGYKD&lid=LSTMOBGQP3UUYGFGYKDKTLXX3&marketplace=FLIPKART&q=oppo+mobile+5g&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_ps&fm=search-autosuggest&iid=c55dbec5-11df-43c3-867c-90b04b74d54d.MOBGQP3UUYGFGYKD.SEARCH&ppt=pp&ppn=pp&ssid=c6t5fc5e400000001703745286140&qH=2e4aa49df1522709" class="btn" id="bn">Buy Now Latest Oppo Phone👆🏻</a>
+                                </div>
+                                </div>
+                              </div>
+  
+                            
+                                <div class="col-lg-3">
+                                <div class="card ml-3" style="width: 18rem; margin-top: 10%; border-radius: 15%; background-image: url(indback.jpg);">
+                                    <img src="vivo.jpg" class="card-img-top" alt="..." height="210px" style="border-radius: 15%;">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><center><b>Vivo</b></center></h5>
+                                      <p class="card-text">
+                                     🔹   <b>Brand Vivo<br>
+                                      🔹  <b> Model Name	VIVO V29E 5G <br>
+                                    🔹    <b>Network Service Provider	Unlocked for All Carriers <br>
+                                    🔹 <b>   Operating System Android 10.0 <br>
+                                    🔹  <b>  Cellular Technology	5G</p>
+                                      <a href="https://www.flipkart.com/vivo-t2-pro-5g-new-moon-black-256-gb/p/itm1230688cdef18?pid=MOBGT4RZMZFEWDY7&lid=LSTMOBGT4RZMZFEWDY7EEVQUQ&marketplace=FLIPKART&q=vivo+5g+mobile&store=tyy%2F4io&srno=s_1_10&otracker=search&otracker1=search&fm=search-autosuggest&iid=5c69ffd5-ea1a-41c0-a6de-b99289575f7b.MOBGT4RZMZFEWDY7.SEARCH&ppt=pp&ppn=pp&ssid=ejwzit66000000001703745307506&qH=05b8fe0c7aa56376" class="btn" id="bn">Buy NOw Latest Vivo Phone</a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+  
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-light bg-dark mt-5 ">
+  <!-- Section: Social media -->  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>e-Commerce Hub
+            </h6>
+            <p>
+              E-commerce is a powerfull means to connect the unconnected to global trades
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="watch.html" class="text-reset">Watches</a>
+            </p>
+            <p>
+              <a href="sond.html" class="text-reset">Speakers</a>
+            </p>
+            <p>
+              <a href="laptop.html" class="text-reset">Laptop</a>
+            </p>
+            <p>
+              <a href="android.html" class="text-reset">andriod</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="http://www.instagram.com" class="text-reset">Instagram</a>
+            </p>
+            <p>
+              <a href="http://www.whatsspp.com" class="text-reset">whats app</a>
+            </p>
+            <p>
+              <a href="http://www.snapchat.com" class="text-reset">Snapchat</a>
+            </p>
+            <p>
+              <a href="http://www.google.com" class="text-reset">Google</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+            <p><i class="fas fa-home me-3"></i>Mango, Jamshedpur, Jharkhand</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              hub@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +91 7488047535</p>
+            <p><i class="fas fa-print me-3"></i> +91 6206338481</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+   
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="index.html">Commerce.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+  </body>
+  </html>
